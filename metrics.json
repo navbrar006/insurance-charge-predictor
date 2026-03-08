@@ -1,0 +1,24 @@
+{
+  "rf": {
+    "r2": 0.9616249395405047,
+    "mae": 809.3111151693619,
+    "rmse": 2297.45936035643
+  },
+  "hgbr": {
+    "r2": 0.9297606195502461,
+    "mae": 1463.2158019070364,
+    "rmse": 3108.233505525474
+  },
+  "blend": {
+    "r2": 0.9605789225277975,
+    "mae": 832.668038029395,
+    "rmse": 2328.5606106153027
+  },
+  "train_records": 3208,
+  "test_records": 803,
+  "blend_weights": {
+    "rf": 0.95,
+    "hgbr": 0.050000000000000044
+  },
+  "note": "Models trained on log1p(charges) and inverse transformed using expm1."
+}
